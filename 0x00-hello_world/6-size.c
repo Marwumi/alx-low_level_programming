@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print out data in c
+ * main - print data
  * code by mowumi
  * Return: 0
 */
@@ -17,5 +17,5 @@ int main(void)
 	printf("Size of a long int: %lu byte(S)\n", (unsigned long)sizeof(c));
 	printf("Size of a long long int: %lu byte(S)\n", (unsigned long)sizeof(d));
 	printf("Size of a float: %lu byte(S)\n", (unsigned long)sizeof(f));
-	return (O);
+	return (0);
 }
